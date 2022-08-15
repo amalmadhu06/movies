@@ -1,7 +1,11 @@
+import MovieList from "./Components/MovieList";
+import Search from "./Components/Search";
+
 function App() {
   return (
     <div className="App">
-      <p>hello world</p>
+      <Search />
+      <MovieList />
     </div>
   );
 }
